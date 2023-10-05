@@ -19,7 +19,7 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image with a specific tag
-                    def dockerImage = docker.build(12Saifsayyed/saifimage:latest")
+                    def dockerImage = docker.build(Saifsayyed/saifimage:latest")
                     
                     // Authenticate with Docker Hub
                     docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
