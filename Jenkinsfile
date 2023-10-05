@@ -3,8 +3,8 @@ pipeline {
     
     environment {
         // Define your Docker Hub credentials as environment variables
-        DOCKER_HUB_USERNAME = credentials('docker-hub-username')
-        DOCKER_HUB_PASSWORD = credentials('docker-hub-password')
+        DOCKER_HUB_USERNAME = credentials('12Saifsayyed')
+        DOCKER_HUB_PASSWORD = credentials('12Saifsayyed#')
     }
     
     stages {
